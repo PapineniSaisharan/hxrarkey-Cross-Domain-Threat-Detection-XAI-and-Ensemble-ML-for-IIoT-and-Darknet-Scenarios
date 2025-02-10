@@ -12,6 +12,19 @@
 
 - ## Interpreting Ensemble Techniques: Stack Ensemble of XGB, LR, RF Predictions Using LIME Visualization on the CIC-Darknet2020 dataset
 
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{float}
+
+\begin{document}
+
+\title{Interpreting Machine Learning Predictions with LIME}
+\author{Your Name}
+\date{\today}
+\maketitle
+
+\section{Interpreting Ensemble Techniques: Stack Ensemble of XGB, LR, RF Predictions Using LIME Visualization on the CIC-Darknet2020 dataset}
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=\linewidth]{lime_darknet.jpg}
@@ -19,7 +32,7 @@
     \label{fig:lime_darknet}
 \end{figure}
 
-## Interpreting XGBoost Predictions Using LIME Visualization on the CIC-APT-IIoT-2024 dataset
+\section{Interpreting XGBoost Predictions Using LIME Visualization on the CIC-APT-IIoT-2024 dataset}
 
 \begin{figure}[H]
     \centering
@@ -27,4 +40,7 @@
     \caption{Interpreting XGBoost Predictions Using LIME Visualization on the CIC-APT-IIoT-2024 dataset.}
     \label{fig:lime_iiot}
 \end{figure}
+
+\end{document}
+
 
